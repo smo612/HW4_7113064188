@@ -1,4 +1,4 @@
-##  資料來源與
+##  資料來源
 
 本專案使用的環境模組 `GridBoard.py` 與 `Gridworld.py` 來自課程提供之 starter code，原始來源為：
 
