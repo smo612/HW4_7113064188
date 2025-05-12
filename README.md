@@ -1,10 +1,18 @@
+##  資料來源與
+
+本專案使用的環境模組 `GridBoard.py` 與 `Gridworld.py` 來自課程提供之 starter code，原始來源為：
+
+🔗 https://github.com/DeepReinforcementLearning/DeepReinforcementLearningInAction
+
+已依據作業需求整合並用於 HW4-1、HW4-2、HW4-3 的環境互動。
+
 # **HW4-1: Naive DQN  for static mode** 
 
 ### 作業目標
 
 本題目旨在實作並訓練一個基本的 **Naive DQN（Deep Q-Network）** 代理人，搭配 `Experience Replay Buffer`，於靜態版本的 `Gridworld` 環境中學習避開陷阱並抵達目標，理解 **DQN** 的基本訓練流程與效果。
 
-- 使用環境：自定義 Gridworld (4x4)
+- 使用環境：自定義 `Gridworld` (4x4)
 - 模式：`static`（所有物件位置固定）
 - 技術：Naive DQN + Replay Buffer
 - 目標：讓 agent 學會從固定起點出發，避開 `Pit`，到達 `Goal`
